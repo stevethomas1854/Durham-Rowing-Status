@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Highway Grid CSS Template</title>
+        <title>Check River Wear Levels</title>
 <!-- 
 
 Highway Template
@@ -45,10 +45,13 @@ https://templatemo.com/tm-520-highway
               <div id="changeInLevel">
               </div>
               <div id="topCrews">
+                <h2 style="display:inline; margin-right:10px;;" >Top Crews:</h2>
               </div>
               <div id="intCrews">
+                  <h2 style="display:inline; margin-right:10px;;"> Intermediate Crews:</h2>
               </div>
               <div id="novCrews">
+                  <h2 style="display:inline; margin-right:10px;;" > Novice Crews:</h2>
               </div>
               <div class="scroll-icon">
                   <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
@@ -65,7 +68,8 @@ https://templatemo.com/tm-520-highway
 
 
     <div class="grid-portfolio" id="portfolio">
-        <div class="container">
+        <div class="container" style="background-color: grey;">
+            <canvas id="myChart"></canvas>
         </div>
     </div>
 
@@ -73,29 +77,29 @@ https://templatemo.com/tm-520-highway
     <footer>
         <div class="container-fluid">
             <div class="col-md-12">
-                <p>Copyright &copy; 2018 Company Name 
-    
-    | Designed by TemplateMo</p>
+                <p>Made by Steve Thomas</p>
             </div>
         </div>
     </footer>
 
 
-      <!-- Modal button -->
+    <!--
+      
+    
     <div class="popup-icon">
       <button id="modBtn" class="modal-btn"><img src="img/contact-icon.png" alt=""></button>
     </div>  
 
-    <!-- Modal -->
+     Modal 
     <div id="modal" class="modal">
-      <!-- Modal Content -->
+      Modal Content 
       <div class="modal-content">
-        <!-- Modal Header -->
+        Modal Header 
         <div class="modal-header">
           <h3 class="header-title">Say hello to <em>Highway</em></h3>
           <div class="close-btn"><img src="img/close_contact.png" alt=""></div>    
         </div>
-        <!-- Modal Body -->
+        <!-- Modal Body 
         <div class="modal-body">
           <div class="col-md-6 col-md-offset-3">
             <form id="contact" action="" method="post">
@@ -127,37 +131,9 @@ https://templatemo.com/tm-520-highway
       </div>
     </div>
 
-    
+  -->
 
-    <section class="overlay-menu">
-      <div class="container">
-        <div class="row">
-          <div class="main-menu">
-              <ul>
-                  <li>
-                      <a href="index.html">Home - Full-width</a>
-                  </li>
-                  <li>
-                      <a href="masonry.html">Home - Masonry</a>
-                  </li>
-                  <li>
-                      <a href="grid.html">Home - Small-width</a>
-                  </li>
-                  <li>
-                      <a href="about.html">About Us</a>
-                  </li>
-                  <li>
-                      <a href="blog.html">Blog Entries</a>
-                  </li>
-                  <li>
-                      <a href="single-post.html">Single Post</a>
-                  </li>
-              </ul>
-              <p>We create awesome templates for you</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -167,7 +143,9 @@ https://templatemo.com/tm-520-highway
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="js/api.js"></script>
+    
 
 </body>
 </html>

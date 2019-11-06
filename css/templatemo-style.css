@@ -91,6 +91,21 @@ img {
   display:inline;
   margin:0px;
 }
+
+#topCrews, #intCrews, #novCrews{
+  margin-top:10px;
+  color:white;
+}
+
+#changeInLevel{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+#myChart{
+  margin-top:50px;
+
+}
 .menu-icon {
   background: transparent;
   border: 1px solid #fff;
@@ -693,6 +708,7 @@ footer a:hover {
 
 .grid-portfolio .portfolio-item {
   margin: 15px 0px;
+
 }
 
 .portfolio-item .hover-effect .hover-content {
