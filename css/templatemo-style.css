@@ -87,6 +87,10 @@ nav {
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
 }
 
+img {
+  display:inline;
+  margin:0px;
+}
 .menu-icon {
   background: transparent;
   border: 1px solid #fff;
